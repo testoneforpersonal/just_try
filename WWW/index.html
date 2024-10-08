@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+  <title>Lemma</title>
+  </script>
+  <style>
+    *:fullscreen,
+    *:-webkit-full-screen,
+    *:-moz-full-screen {
+      background-color: transparent !important;
+    }
+
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: transparent !important;
+      transform-origin: 0 0;
+      cursor: none !important;
+      user-select: none !important;
+      backface-visibility: hidden;
+    }
+
+    #weather {
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      object-fit: fill;
+      top: 0;
+      left: 0;
+      font-weight: normal;
+      font-size: 2.5vh;
+      font-weight: 700;
+      font-family: sans-serif;
+      color: #FFF;
+      text-transform: uppercase;
+      z-index: 5000;
+      display: none;
+    }
+
+    #weather .middle {
+      position: absolute;
+      width: 100%;
+      font-weight: bold;
+      font-size: 7vh;
+      text-align: center;
+      padding-top: 38vh;
+      display: none;
+    }
+
+    #weather .cleft {
+      position:absolute;
+      height: 21vh;
+      width: 50%;
+      top: 58vh;
+      text-align: center;
+      padding-top: 4vh;
+      display: none;
+    }
+
+    #weather .cright {
+      position: absolute;
+      height: 21vh;
+      width: 50%;
+      top: 58vh;
+      right: 0;
+      text-align: center;
+      padding-top: 4vh;
+      display: none;
+    }
+
+    #weather .bleft {
+      position: absolute;
+      height: 21vh;
+      width: 50%;
+      top: 79vh;
+      text-align: center;
+      padding-top: 4vh;
+      display: none;
+    }
+
+    #weather .bright {
+      position: absolute;
+      height: 21vh;
+      width: 50%;
+      top: 79vh;
+      right: 0;
+      text-align: center;
+      padding-top: 4vh;
+      display: none;
+    }
+  </style>
+</head>
+
+<body style="overflow: hidden;margin: 0; padding: 0;">
+  <div id="weather">
+    <div class="middle"><span id="weather-middle"></span> <sup>o</sup>C</div>
+    <div class="cleft"><span id="weather-cleft"></span> <sup>o</sup>C</div>
+    <div class="cright"><span id="weather-cright"></span> <sup>o</sup>C</div>
+    <div class="bleft"><span id="weather-bleft"></span> <sup>o</sup>C</div>
+    <div class="bright"><span id="weather-bright"></span> <sup>o</sup>C</div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
