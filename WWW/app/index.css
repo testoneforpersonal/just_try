@@ -1,0 +1,122 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  width: 50%;
+  padding: 15px 0px 0px 10px;
+}
+.actions {
+  padding-top: 5px;
+}
+.action-icon {
+  width: 40px;
+  padding: 4px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.action-icon:hover {
+  border: 1px solid #000;
+  background-color: rgb(212, 222, 233);
+}
+
+.info-container {
+  margin: 20px 10px 0 10px;
+  display: grid;
+  column-count: 4;
+  grid-template-columns: 10% 35% 10% 35%;
+  gap: 10px;
+  align-items: center;
+  font-size: 18px;
+  color: rgb(40, 69, 94);
+  padding-top: 15px;
+  background-color: rgb(184, 184, 184);
+}
+.info-icon {
+  padding: 5px;
+  text-align: center;
+}
+.info-text {
+  word-wrap: break-word;
+  overflow: hidden;
+}
+.info-container img {
+  width: 40px;
+}
+.footer {
+  font-size: 20px;
+  padding: 10px;
+  padding-top: 40px;
+}
+.email {
+  font-weight: 800;
+  color: rgb(167, 51, 51);
+}
+
+.config-editor {
+  color: rgb(4, 85, 105);
+}
+
+.config-header {
+  font-size: 28px;
+  margin: 0 10px;
+  padding: 10px;
+}
+.config-container {
+  border: 1px solid #ccc;
+  border-width: 1px 1px 0 1px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.config-item {
+  border: 1px solid #ccc;
+  border-width: 0 0 1px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.config-label {
+  border: 1px solid #ccc;
+  border-width: 0 1px 0 0;
+  padding: 10px;
+  width: 40%;
+  font-weight: 700;
+}
+
+.config-value {
+  padding: 10px;
+  width: 60%;
+}
+
+.config-value input {
+  border: 0 none;
+  font-size: 18px;
+}
+
+.config-value select {
+  border: 0 none;
+  font-size: 18px;
+}
+.config-footer {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  height: 30px;
+  margin-right: 5px;
+  color: white;
+  background-color: rgb(4, 85, 105);
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 18px;
+}
