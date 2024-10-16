@@ -14,7 +14,7 @@
     "electron-log": "^4.4.1",
     "electron-shutdown-command": "^2.0.1",
     "electron-updater": "^4.3.9",
-    "fs": "^0.0.1-security",
+    "fs": "^0.0.2",
     "html-table-to-json": "^1.0.0",
     "node-fetch": "^2.6.0",
     "public-ip": "^4.0.4",
