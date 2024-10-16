@@ -20,6 +20,6 @@
     "public-ip": "^4.0.4",
     "request": "^2.88.2",
     "serialport": "^10.4.0",
-    "systeminformation": "5.21.21"
+    "systeminformation": "5.23.5"
   }
 }
